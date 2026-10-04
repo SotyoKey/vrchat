@@ -151,35 +151,7 @@ ai-studio/
 │   ├── GIMMICK_SPEC_TEMPLATE.md
 │   └── REVIEW_TEMPLATE.md
 │
-└── releases/
-    ├── worlds/
-    │   └── sanatorium/
-    │       ├── v1.0.0/
-    │       │   ├── README.md
-    │       │   ├── blender/
-    │       │   ├── unity/
-    │       │   └── package/
-    │       └── latest/
-    │
-    ├── avatars/
-    │   └── avatar-a/
-    │       └── v1.0.0/
-    │
-    ├── blender-addons/
-    │   └── example-addon/
-    │       └── v1.0.0/
-    │
-    ├── geometry-nodes/
-    │   └── example-tool/
-    │       └── v1.0.0/
-    │
-    ├── unity-tools/
-    │   └── example-editor-tool/
-    │       └── v1.0.0/
-    │
-    └── shaders/
-        └── example-shader/
-            └── v1.0.0/
+└── xxxx/
 ```
 
 ## Responsibility
@@ -393,50 +365,6 @@ editor/
 shaders/
 packages/
 ```
-
-完成したツールは `releases/` にリリースします。
-
----
-
-## `releases/`
-
-完成・配布可能な成果物を管理します。
-
-```text
-projects/
-    │
-    │ 制作
-    ▼
-レビュー・QA
-    │
-    │ PASS
-    ▼
-releases/
-```
-
-`projects/` は作業中データ、`releases/` は完成品という扱いです。
-
-バージョンはSemantic Versioning形式を基本とします。
-
-```text
-v1.0.0
-v1.1.0
-v1.1.1
-v2.0.0
-```
-
-例えば、
-
-```text
-releases/
-└── blender-addons/
-    └── auto-material-tool/
-        ├── v1.0.0/
-        ├── v1.1.0/
-        └── v2.0.0/
-```
-
-のように管理します。
 
 ---
 
